@@ -15,3 +15,23 @@ __pycache__/
 *.pth
 *.safetensors
 *.onnx
+# Environments & Cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Model weights & large binaries
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+*.ckpt
+
+# Datasets & Secrets
+data/
+*.parquet
+*.csv
+.env
